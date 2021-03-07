@@ -12,12 +12,17 @@
 
 </body>
 <script>
-    document.body.innerHTML = "Hello World!";
+    // document.body.innerHTML = "Hello World!";
+    let mainTitle = document.createElement("h1");
+
+    document.body.append(mainTitle);
+    document.querySelector("h1").innerHTML = "Hello World!!!";
+
     // document.body.append("My name is David", " Ogunbanjo", {
     //     name
     // });
 
-    // document.body.append(name);
+    // document.body.append(document.createElement("br"));
 </script>
 
 <script src="./scripts/main.js"></script>
