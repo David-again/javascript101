@@ -6,20 +6,20 @@
     <title>Dicee</title>
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+    <script src="./scripts/main.js" charset="utf-8"></script>
 </head>
 
-<body>
-    <!-- <h2>Click the image below to roll the dice</h2>
-    <img src="./images/dice-photo.jpg" alt="multiple playing dice"> -->
-
+<body onload="RollDice()">
     <div class="hero-image">
         <div class="hero-text">
             <!-- <h1>Dice Roller</h1>
             <p>Click this image to roll the dice</p> -->
-            <button class="btnRollDice">Roll Dice</button>
+            <button class="btnRollDice" onclick="RollDice()">Roll Dice</button>
+            <!-- <p>Click to roll the dice</p> -->
         </div>
     </div>
+
+
 
 
     <div class="die-container">
@@ -35,14 +35,9 @@
         </div>
 
     </div>
-
-    <script src="./scripts/main.js" charset="utf-8"></script>
-
 </body>
 
 <footer>
-    <!-- www 🎲 App Brewery 🎲 com 🎲 CodeMan 🎲 -->
-
     <a href="http://www.davidogunbanjo.com"> www 🎲 David Ogunbanjo 🎲 com</a>
 </footer>
 
